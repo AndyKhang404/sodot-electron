@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+	<meta http-equiv="X-Content-Security-Policy" content="default-src 'self'">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Sodot</title>
+</head>
+<body class="">
+	<div id="top">
+		<div id="top-main">
+			<div id="add-task">
+				<input type="text" id="add-task-content" placeholder="Add task..."><button id="add-task-btn">
+					<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+						<path d="M24 9h-9v-9h-6v9h-9v6h9v9h6v-9h9z"/>
+					</svg>
+				</button>
+			</div>
+		</div>
+		<div id="top-misc">
+			<button id="top-dark-mode">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 4c-4.418 0-8 3.582-8 8s3.582 8 8 8v-16z"/></svg>
+			</button>
+		</div>
+	</div>
+	<div id="main">
+		<ul id="task-list"></ul>
+	</div>
+	<script src="renderer.js"></script>
+</body>
+</html>
